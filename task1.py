@@ -21,7 +21,7 @@ while not is_float(number_a):
     print(f"Вы ввели: {number_a}")
     number_a = input("Введите число: ")
 number_a = float(number_a)
-number_b = input("Введите числитель (делимое): ")
+number_b = input("Введите знаменатель (делитель): ")
 while not is_float(number_b) or int(number_b) == 0:
     print(f"Вы ввели: {number_b}")
     number_b = input("Введите число, отличное от нуля: ")
